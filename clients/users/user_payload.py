@@ -1,0 +1,2 @@
+def get_user_payload(user_first_name, user_last_name, user_email_add, gender, status):
+    return {"name": user_first_name+" "+user_last_name, "gender": gender, "email": user_email_add, "status": status}
